@@ -1,0 +1,174 @@
+{
+  "keys": [
+    {
+      "symbol": "┌",
+      "name": "top left corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "─",
+      "name": "horizontal line",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "┐",
+      "name": "top right corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "╔",
+      "name": "double top left corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "═",
+      "name": "double horizontal line",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "╗",
+      "name": "double top right corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "☐",
+      "name": "empty checkbox ballot box",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "☒",
+      "name": "crossed checkbox",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "☑",
+      "name": "checked checkbox ballot box",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "⇒",
+      "name": "implies double right arrow",
+      "category": "Arrows"
+    },
+    {
+      "symbol": "└",
+      "name": "bottom left corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "┘",
+      "name": "bottom right corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "│",
+      "name": "vertical line",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "╚",
+      "name": "double bottom left corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "╝",
+      "name": "double bottom right corner",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "║",
+      "name": "double vertical line",
+      "category": "Box drawing"
+    },
+    {
+      "symbol": "‣",
+      "name": "triangular bullet",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "▪",
+      "name": "square bullet",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "°",
+      "name": "degree angle temperature",
+      "category": "Math & units"
+    },
+    {
+      "symbol": "↳",
+      "name": "down then right arrow",
+      "category": "Arrows"
+    },
+    {
+      "symbol": "✓",
+      "name": "check mark tick",
+      "category": "Checks & bullets"
+    },
+    {
+      "symbol": "½",
+      "name": "one half 1/2",
+      "category": "Fractions"
+    },
+    {
+      "symbol": "⅓",
+      "name": "one third 1/3",
+      "category": "Fractions"
+    },
+    {
+      "symbol": "¼",
+      "name": "one quarter 1/4",
+      "category": "Fractions"
+    },
+    {
+      "symbol": "⅔",
+      "name": "two thirds 2/3",
+      "category": "Fractions"
+    },
+    {
+      "symbol": "¾",
+      "name": "three quarters 3/4",
+      "category": "Fractions"
+    },
+    {
+      "symbol": "©",
+      "name": "copyright",
+      "category": "Typography"
+    },
+    {
+      "symbol": "★",
+      "name": "solid star",
+      "category": "Stars & shapes"
+    },
+    {
+      "symbol": "☆",
+      "name": "outline star",
+      "category": "Stars & shapes"
+    },
+    {
+      "symbol": "♠︎",
+      "name": "spade suit solid",
+      "category": "Card suits"
+    },
+    {
+      "symbol": "♥︎",
+      "name": "heart suit solid",
+      "category": "Card suits"
+    },
+    {
+      "symbol": "♦︎",
+      "name": "diamond suit solid",
+      "category": "Card suits"
+    },
+    {
+      "symbol": "♣︎",
+      "name": "club suit solid",
+      "category": "Card suits"
+    },
+    {
+      "symbol": "↓",
+      "name": "down arrow",
+      "category": "Arrows"
+    }
+  ]
+}

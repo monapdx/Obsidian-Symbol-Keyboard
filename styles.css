@@ -1,0 +1,59 @@
+.symbol-keyboard-panel {
+  container-type: inline-size;
+  padding: 0 var(--size-2-2) var(--size-4-3);
+}
+.symbol-keyboard-panel .sk-toolbar,
+.symbol-keyboard-panel .sk-filters,
+.symbol-keyboard-panel .sk-custom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.symbol-keyboard-panel .sk-toolbar { justify-content: space-between; margin-bottom: 10px; }
+.symbol-keyboard-panel .sk-toolbar span,
+.symbol-keyboard-panel .sk-status { color: var(--text-muted); font-size: var(--font-ui-smaller); }
+.symbol-keyboard-panel .sk-keyboard {
+  --sk-gap: 3px;
+  display: grid;
+  gap: var(--sk-gap);
+  border-radius: var(--radius-m);
+  background: var(--background-secondary);
+}
+.symbol-keyboard-panel .sk-row {
+  display: flex;
+  gap: var(--sk-gap);
+  padding-inline-start: calc(var(--sk-row) * (100cqw + var(--sk-gap)) / 20);
+}
+.symbol-keyboard-panel button.sk-key {
+  flex: 0 0 calc((100cqw - 9 * var(--sk-gap)) / 10);
+  min-width: 0;
+  height: 34px;
+  padding: 0;
+  font-size: clamp(12px, 5.5cqw, 20px);
+  color: var(--text-muted);
+}
+.symbol-keyboard-panel .sk-key.sk-filled { color: var(--text-normal); }
+.symbol-keyboard-panel .sk-key[aria-pressed="true"] {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+.symbol-keyboard-panel .sk-status { margin: 8px 0; }
+.symbol-keyboard-panel .sk-library {
+  border-top: 1px solid var(--background-modifier-border);
+  padding-top: 10px;
+}
+.symbol-keyboard-panel input { flex: 1 1 105px; min-width: 0; }
+.symbol-keyboard-panel select { width: auto; max-width: 100%; }
+.symbol-keyboard-panel .sk-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
+  gap: 4px;
+  max-height: 160px;
+  margin: 8px 0;
+  padding: 2px;
+  overflow: auto;
+}
+.symbol-keyboard-panel .sk-results button { min-width: 0; padding: 0; font-size: 18px; }
+.symbol-keyboard-panel .sk-results span { grid-column: 1 / -1; color: var(--text-muted); }
+.symbol-keyboard-panel .sk-clear { margin-top: 8px; }

@@ -1,0 +1,9 @@
+{
+  "id": "symbol-keyboard",
+  "name": "Symbol Keyboard",
+  "version": "1.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Assign Unicode symbols and emoji to keys and insert them directly into your notes.",
+  "author": "Ashly Lorenzana",
+  "isDesktopOnly": true
+}
