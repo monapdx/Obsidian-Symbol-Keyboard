@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Symbol Keyboard for Obsidian</title>
+  <desc id="desc">A lavender keyboard lights up as a degree sign is assigned and inserted after 44 in a Markdown note.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#171129"/><stop offset=".58" stop-color="#100d1c"/><stop offset="1" stop-color="#1b102a"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#f2ddff"/><stop offset="1" stop-color="#ae82fa"/>
+    </linearGradient>
+    <linearGradient id="key" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#382b50"/><stop offset="1" stop-color="#241d36"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#9e57fa" stop-opacity=".30"/><stop offset="1" stop-color="#8e52dc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#d0b3ff" opacity=".16"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="458" rx="27"/></clipPath>
+    <g id="cap">
+      <rect y="4" width="44" height="40" rx="9" fill="#110c1e"/>
+      <rect x=".5" y=".5" width="43" height="39" rx="8.5" fill="url(#key)" stroke="#57466c"/>
+      <path d="M9 35h26" stroke="#795c98" opacity=".28" stroke-linecap="round"/>
+    </g>
+    <g id="pointer">
+      <path d="M1 1 3 24l6-6 5 9 5-3-5-9 9-1Z" fill="#faf1ff" stroke="#331d50" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <style>
+    .sans {font-family:system-ui,'Segoe UI',Arial,sans-serif}
+    .mono {font-family:'Cascadia Mono',Consolas,'DejaVu Sans Mono',monospace}
+    .key-labels {font: 21px 'DejaVu Sans','Segoe UI Symbol',sans-serif; fill:#e3d5f7; text-anchor:middle}
+    .eyebrow {font-size:12px; font-weight:700; letter-spacing:2px}
+    .stage {animation:stage 7.5s linear infinite}
+    .assign {animation:assign 7.5s ease infinite}
+    .assigned {animation:assigned 7.5s linear infinite}
+    .press {animation:press 7.5s ease infinite}
+    .fly {animation:fly 7.5s ease-in-out infinite}
+    .written {animation:written 7.5s linear infinite}
+    .caret {transform:translateX(16px);animation:caret 7.5s linear infinite}
+    .attn {animation:attn 7.5s ease-out infinite; transform-origin:981px 224px}
+    @keyframes stage {0%,95%,100%{opacity:0} 5%,89%{opacity:1}}
+    @keyframes assign {
+      0%,5%{opacity:0;transform:translate(1089px,132px)}
+      10%{opacity:1;transform:translate(1089px,132px)}
+      20%,23%{opacity:1;transform:translate(991px,205px)}
+      27%{opacity:0;transform:translate(991px,205px)}
+      34%{opacity:0;transform:translate(1009px,247px)}
+      38%{opacity:1;transform:translate(1009px,247px)}
+      43%,46%{opacity:1;transform:translate(989px,221px)}
+      51%,100%{opacity:0;transform:translate(989px,221px)}
+    }
+    @keyframes assigned {0%,20%,96%,100%{opacity:0} 24%,92%{opacity:1}}
+    @keyframes press {0%,39%,48%,100%{transform:translateY(0)} 43%,45%{transform:translateY(4px)}}
+    @keyframes fly {
+      0%,44%{opacity:0;transform:translate(981px,219px) scale(.75)}
+      46%{opacity:1;transform:translate(981px,219px) scale(1)}
+      54%{opacity:1;transform:translate(958px,295px) scale(1)}
+      62%{opacity:1;transform:translate(596px,376px) scale(1)}
+      65%,100%{opacity:0;transform:translate(596px,376px) scale(.75)}
+    }
+    @keyframes written {0%,61%,96%,100%{opacity:0} 64%,92%{opacity:1}}
+    @keyframes caret {
+      0%,61%{transform:translateX(0)}
+      64%,92%{transform:translateX(16px)}
+      97%,100%{transform:translateX(0)}
+    }
+    @keyframes attn {
+      0%,43%{opacity:0;transform:scale(.8)}
+      44%{opacity:.85;transform:scale(.8)}
+      56%,100%{opacity:0;transform:scale(1.65)}
+    }
+    @media (prefers-reduced-motion:reduce) {
+      .stage,.assign,.assigned,.press,.fly,.written,.caret,.attn {animation:none}
+      .caret {transform:translateX(16px)}
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="460" fill="url(#background)"/>
+    <ellipse cx="914" cy="226" rx="520" ry="305" fill="url(#aura)"/>
+    <rect x="434" width="766" height="460" fill="url(#dots)"/>
+    <path d="M447 60v340" stroke="#695385" opacity=".48"/>
+    <path d="M68 405h320" stroke="#55416d" opacity=".6"/>
+
+    <g class="sans">
+      <g transform="translate(64 62)">
+        <rect width="45" height="45" rx="12" fill="#362353" stroke="#8060a7"/>
+        <rect x="9" y="13" width="27" height="19" rx="4" fill="none" stroke="#e4caff" stroke-width="1.5"/>
+        <path d="M14 19h2m5 0h2m5 0h2m-16 4h2m5 0h2m5 0h2m-12 5h10" stroke="#e4caff" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+      <text x="124" y="89" fill="#d6b8f7" class="eyebrow">OBSIDIAN PLUGIN</text>
+      <text x="61" y="200" fill="#fcf6ff" font-size="77" font-weight="750" letter-spacing="-4">Symbol</text>
+      <text x="61" y="273" fill="url(#accent)" font-size="77" font-weight="750" letter-spacing="-4">Keyboard</text>
+      <text x="66" y="324" fill="#d7c9e6" font-size="21">Assign symbols to your own keys.</text>
+      <text x="66" y="355" fill="#d7c9e6" font-size="21">Type them straight into a note.</text>
+    </g>
+
+    <g class="sans">
+      <rect x="483" y="64" width="652" height="244" rx="19" fill="#100c1b" stroke="#514064"/>
+      <path d="M501 64h616a18 18 0 0 1 18 18v33H483V82a18 18 0 0 1 18-18Z" fill="#251b38"/>
+      <path d="M483 115h652" stroke="#47365d"/>
+      <circle cx="506" cy="90" r="3.5" fill="#ad81ee"/>
+      <text x="520" y="95" fill="#eadcf8" font-size="14" font-weight="650">Symbol Keyboard</text>
+      <g class="stage" opacity="1">
+        <rect x="969" y="78" width="146" height="24" rx="12" fill="#38274e"/>
+        <text x="1042" y="94" text-anchor="middle" fill="#e5cbff" font-size="11" font-weight="700" letter-spacing=".85">CUSTOM LAYOUT</text>
+      </g>
+      <g class="key-labels">
+        <g transform="translate(512 135)"><use href="#cap"/><text x="22" y="27">←</text></g>
+        <g transform="translate(564 135)"><use href="#cap"/><text x="22" y="27">→</text></g>
+        <g transform="translate(616 135)"><use href="#cap"/><text x="22" y="27">↑</text></g>
+        <g transform="translate(668 135)"><use href="#cap"/><text x="22" y="27">↓</text></g>
+        <g transform="translate(720 135)"><use href="#cap"/><text x="22" y="27">☐</text></g>
+        <g transform="translate(772 135)"><use href="#cap"/><text x="22" y="27">✓</text></g>
+        <g transform="translate(824 135)"><use href="#cap"/><text x="22" y="27">★</text></g>
+        <g transform="translate(876 135)"><use href="#cap"/><text x="22" y="27">☆</text></g>
+        <g transform="translate(928 135)"><use href="#cap"/><text x="22" y="27">½</text></g>
+        <g transform="translate(980 135)"><use href="#cap"/><text x="22" y="27">¾</text></g>
+
+        <g transform="translate(535 197)"><use href="#cap"/><text x="22" y="27">♠</text></g>
+        <g transform="translate(587 197)"><use href="#cap"/><text x="22" y="27">♥</text></g>
+        <g transform="translate(639 197)"><use href="#cap"/><text x="22" y="27">♦</text></g>
+        <g transform="translate(691 197)"><use href="#cap"/><text x="22" y="27">♣</text></g>
+        <g transform="translate(743 197)"><use href="#cap"/><text x="22" y="27">©</text></g>
+        <g transform="translate(795 197)"><use href="#cap"/><text x="22" y="27">®</text></g>
+        <g transform="translate(847 197)"><use href="#cap"/><text x="22" y="27">™</text></g>
+        <g transform="translate(899 197)"><use href="#cap"/><text x="22" y="27">±</text></g>
+        <g transform="translate(959 197)">
+          <use href="#cap"/>
+          <text x="22" y="27" fill="#ad9abd">+</text>
+          <g class="press">
+            <g class="assigned">
+              <rect y="4" width="44" height="40" rx="9" fill="#5f4288"/>
+              <rect x=".5" y=".5" width="43" height="39" rx="8.5" fill="url(#accent)" stroke="#f2daff"/>
+              <text x="22" y="30" fill="#28143e" font-size="30" font-weight="700">°</text>
+            </g>
+          </g>
+        </g>
+
+        <g transform="translate(560 249)"><use href="#cap"/><text x="22" y="27">╔</text></g>
+        <g transform="translate(612 249)"><use href="#cap"/><text x="22" y="27">═</text></g>
+        <g transform="translate(664 249)"><use href="#cap"/><text x="22" y="27">╗</text></g>
+        <g transform="translate(716 249)"><use href="#cap"/><text x="22" y="27">║</text></g>
+        <g transform="translate(768 249)"><use href="#cap"/><text x="22" y="27">╚</text></g>
+        <g transform="translate(820 249)"><use href="#cap"/><text x="22" y="27">╝</text></g>
+        <g transform="translate(872 249)"><use href="#cap"/><text x="22" y="27">—</text></g>
+        <g transform="translate(924 249)"><use href="#cap"/><text x="22" y="27">…</text></g>
+      </g>
+      <rect x="1050" y="135" width="65" height="40" rx="8" fill="#1c142d" stroke="#735296" stroke-dasharray="3 3"/>
+      <text x="1082" y="165" text-anchor="middle" fill="#ddbbff" font-size="24">°</text>
+      <text x="1082" y="191" text-anchor="middle" fill="#bba7d1" font-size="10">Degree sign</text>
+    </g>
+
+    <g>
+      <rect x="483" y="327" width="652" height="79" rx="14" fill="#140f21" stroke="#514064"/>
+      <path d="M496 327h626a13 13 0 0 1 13 13v14H483v-14a13 13 0 0 1 13-13Z" fill="#241a35"/>
+      <text x="507" y="345" class="mono" font-size="12" fill="#d1b9ec">Daily note.md</text>
+      <text x="506" y="386" class="mono" fill="#8e78ac" font-size="15">1</text>
+      <path d="M533 366v24" stroke="#46365d"/>
+      <text x="556" y="387" class="mono" fill="#f2eafd" font-size="26">44</text>
+      <text x="588" y="387" class="mono written" fill="#d5adff" font-size="26">°</text>
+      <rect x="590" y="366" width="2" height="25" rx="1" fill="#bc8cfa" class="caret"/>
+    </g>
+
+    <rect class="attn" x="957" y="195" width="48" height="45" rx="10" fill="none" stroke="#d7a6ff" stroke-width="2" opacity="0"/>
+    <g class="assign" opacity="0"><use href="#pointer"/></g>
+    <g class="fly" opacity="0">
+      <circle r="15" fill="#d5a9ff" fill-opacity=".22" stroke="#d5a9ff" stroke-opacity=".6"/>
+      <text x="0" y="10" class="sans" fill="#f3e1ff" text-anchor="middle" font-size="28">°</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="458" rx="27" fill="none" stroke="#5d4676" stroke-width="2"/>
+</svg>
