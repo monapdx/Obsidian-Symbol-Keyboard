@@ -1,5 +1,7 @@
 # Symbol Keyboard for Obsidian
 
+<img src="https://raw.githubusercontent.com/monapdx/Obsidian-Symbol-Keyboard/d67366f2c723dcb829b572ed6c5f95f252afa5d0/symbol-keyboard-banner.svg">
+
 Assign Unicode symbols and emoji to your own keyboard and insert them directly into a Markdown note.
 
 ## Install on desktop
